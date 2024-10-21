@@ -22,14 +22,9 @@ def setting_markup(_):
                 text="Clean Mode", callback_data="CM"
             ),
         ],
-        [           
-            InlineKeyboardButton(
-                text="📱 YouTube 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            ),
-        ],
         [
             InlineKeyboardButton(
-                text="💖 Support 💖", url=f"{SUPPORT_GROUP}",
+                text=" Support ", url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"

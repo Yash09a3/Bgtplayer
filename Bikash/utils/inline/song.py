@@ -13,14 +13,9 @@ def song_markup(_, vidid):
                 callback_data=f"song_helper video|{vidid}",
             ),
         ],
-        [           
-            InlineKeyboardButton(
-                text="📱 YouTube 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            ),
-        ],
         [
             InlineKeyboardButton(
-                text="🥀 Support 🥀", url=f"{config.SUPPORT_GROUP}",
+                text=" Support ", url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
